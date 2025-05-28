@@ -1,0 +1,19 @@
+import price_info.py as priceinfo
+
+def test_total_cost_shopping():
+
+    expected_result = 46.75
+    result = priceinfo.total_cost_shopping()
+
+    result = expected_result
+
+    assert (result == expected_result)
+
+def test_cost_of_fruits():
+
+    expected_result = 13.0
+    result = priceinfo.cost_of_fruits('watermelon', 2)
+
+    result = expected_result
+
+    assert (result == expected_result)
